@@ -4,7 +4,7 @@ import logging
 import pyrogram
 import random
 import asyncio, time
-import datetime
+import pytz, datetime
 from Script import script
 from pyrogram import Client, filters
 from pyrogram.errors import ChatAdminRequired, FloodWait
@@ -24,7 +24,19 @@ BATCH_FILES = {}
 @Client.on_message(filters.command("start") & filters.incoming & ~filters.edited)
 async def start(client, message: pyrogram.types.Message):
 
-    if message.chat.type in ['group', 'supergroup']:
+m = datetime.datetime.now(pytz.timezone("Asia/Kolkata"))
+time = m.hour
+
+if time < 12:
+     get="Good Morning"
+ elif time < 15:
+     get="Good Afternoon"
+elif time < 20:
+     get="Good Evening"
+else:
+     get="Good Night"
+   
+     if message.chat.type in ['group', 'supergroup']:
         buttons = [[
         InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
         InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
