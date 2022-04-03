@@ -26,7 +26,7 @@ async def start(client, message: pyrogram.types.Message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [[
         InlineKeyboardButton('Developers', url='https://t.me/Teamyoonseri'),
-        InlineKeyboardButton('Search again', switch_inline_query_current_chat=query)
+        InlineKeyboardButton('Search again', switch_inline_query_current_chat='')
     ],[
         InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
     ],[
@@ -73,7 +73,7 @@ async def start(client, message: pyrogram.types.Message):
 
         buttons = [[
         InlineKeyboardButton('Developers', url='https://t.me/Teamyoonseri'),
-        InlineKeyboardButton('Search again', switch_inline_query_current_chat=query)
+        InlineKeyboardButton('Search again', switch_inline_query_current_chat='')
     ],[
         InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
     ],[
@@ -125,7 +125,7 @@ async def start(client, message: pyrogram.types.Message):
 
         buttons = [[
         InlineKeyboardButton('Developers', url='https://t.me/Teamyoonseri'),
-        InlineKeyboardButton('Search again', switch_inline_query_current_chat=query)
+        InlineKeyboardButton('Search again', switch_inline_query_current_chat='')
     ],[
         InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
     ],[
