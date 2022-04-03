@@ -149,7 +149,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('This Movie Not Found In DataBase Contact @PromotionMediator (admin) to add This Movie file📂')
+            k = await query.message.edit('This Movie Not Found In DataBase Contact @Teamyoonseri (admin) to add This Movie file📂')
             await asyncio.sleep(10)
             await k.delete()
 
@@ -431,7 +431,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton('📢 Join Channel 📢', url ="https://t.me/+VQZTK6EdBAo5MjU1")
+                            InlineKeyboardButton('📢 Join Channel 📢', url ="https://t.me/FT_Channels")
                         ],
                         [
                             InlineKeyboardButton('🔄 Download 🔄 ', url = msg.link)
@@ -484,8 +484,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('Developers', url='https://t.me/Teamyoonseri'),
+        InlineKeyboardButton('Source Code 🧾', url ='https://t.me/FT_Channels/112')
     ],[
         InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
     ],[
