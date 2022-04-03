@@ -1,11 +1,7 @@
 class script(object):
-    START_TXT = """𝗛ᴇʟʟᴏ {},
-
- 𝗠ʏ 𝗡ᴀᴍᴇ ɪ𝘀  ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ
-
-𝗜'𝗺 𝗮𝗻 𝗔𝗱𝘃𝗮𝗻𝗰𝗲𝗱 𝗳𝗶𝗹𝘁𝗲𝗿 + 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 𝗯𝗼𝘁
-
- 𝗔ᴅᴅ 𝗠ᴇ 𝗧ᴏ 𝗬ᴏᴜʀ 𝗚ʀᴏᴜᴘ. 𝗜 𝗖ᴀɴ 𝗣ʀᴏᴠɪᴅᴇ 𝗠ᴏᴠɪᴇ𝘀 ᴀɴᴅ 𝗙𝗼𝗿 𝗠ᴏʀᴇ 𝗜ɴғᴏ 𝗖ʟɪᴄᴋ 𝗧ʜᴇ ᴴᴱᴸᴾ 💣
+    START_TXT = """<b>Hello {},</b>
+    
+    <i>All the features in one bot. Yoon Se-ri can be used as a Movie Search + Autofilter + Group Managing Bot. You can search files via Inline. Just add to your group and Get those exclusive features.</i>
 
 """
     HELP_TXT = """<b>𝖧𝖾𝗋𝖾 𝗂𝗌 𝗍𝗁𝖾 𝖴𝗌𝗎𝖺𝗅 𝖼𝗈𝗆𝗆𝖺𝗇𝖽𝗌:</b>
@@ -28,21 +24,21 @@ class script(object):
 - /stickerid - 𝖦𝖾𝗍 𝖨𝖣
 """
     ABOUT_TXT = """
-𝐌𝐲 𝐍𝐚𝐦𝐞 :ᴏʙᴀɴᴀɪ ɪɢᴜʀᴏ 🐍
+𝐌𝐲 𝐍𝐚𝐦𝐞 : 𝒴𝑜𝑜𝓃 𝒮𝑒-𝓇𝒾 🐍
 
-🦁 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 :ʙʟᴇssᴏɴ[TG]🍷
+🦁 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 : [𝒯𝑒𝒶𝓂𝒴𝑜𝑜𝓃𝒮𝑒𝓇𝒾](https://t.me/Teamoonseri)🍷
 
-🐍𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 : 𝐏𝐲𝐭𝐡𝐨𝐧
+🐍𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 : [𝒫𝓎𝓉𝒽𝑜𝓃](https://www.python.org/)
 
-🐍𝐋𝐢𝐛𝐫𝐚𝐫𝐲 : 𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦 𝐚𝐬𝐲𝐧𝐜𝐢𝐨 
+🐍𝐋𝐢𝐛𝐫𝐚𝐫𝐲 : [𝓅𝓎𝓇𝑜𝑔𝓇𝒶𝓂 𝒶𝓈𝓎𝓃𝒸𝒾𝑜](https://docs.pyrogram.org/)
 
-🐍𝐒𝐮𝐩𝐩𝐨𝐫𝐭𝐞𝐝 𝐒𝐢𝐭𝐞 : 𝐎𝐧𝐥𝐲 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦
+🐍𝐒𝐮𝐩𝐩𝐨𝐫𝐭𝐞𝐝 𝐒𝐢𝐭𝐞 : [𝒪𝓃𝓁𝓎 𝒯𝑒𝓁𝑒𝑔𝓇𝒶𝓂](https://telegram.org/)
 
-🐍𝐒𝐞𝐫𝐯𝐞𝐫 : 𝐇𝐞𝐫𝐨𝐤U
+🐍𝐒𝐞𝐫𝐯𝐞𝐫 : [ℋ𝑒𝓇𝑜𝓀𝓊](https://www.heroku.com/)
 
-🐍𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 : 𝐌𝐨𝐧𝐠𝐨𝐃𝐁
+🐍𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞 : [ℳ𝑜𝓃𝑔𝑜𝒟ℬ](https://mongodb.com)
 
-🐍𝐁𝐮𝐢𝐥𝐝 s𝐭𝐚𝐭𝐮𝐬 : 𝐕2.1 [𝐁𝐄𝐓𝐀]
+🐍𝐁𝐮𝐢𝐥𝐝 s𝐭𝐚𝐭𝐮𝐬 : 𝒱2.1 [ℬℰ𝒯𝒜]
 """
     SOURCE_TXT = """<b>NOTE:</b>
 - This is a closed source project.   
